@@ -3,9 +3,9 @@
 // L = left
 // R = right
 
-import { StratagemType } from '../interface/Stratagem';
+import { StratagemAPI, StratagemType } from '../interface/Stratagem';
 
-export const stratagems = [
+export const stratagems: StratagemAPI[] = [
   {
     id: '1',
     name: 'Orbital Gatling Barrage',
@@ -512,5 +512,3 @@ export const stratagems = [
     imageUrl: '/images/Shield_Generator_Pack.svg',
   },
 ];
-
-module.exports = stratagems;

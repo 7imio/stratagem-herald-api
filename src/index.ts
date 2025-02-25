@@ -13,7 +13,7 @@ const LOCAL_PORT = process.env.LOCAL_PORT;
 app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('./api/', stratagemRouter);
+app.use('/api', stratagemRouter);
 
 if (LOCAL_PORT) {
   app.listen(LOCAL_PORT, () => {

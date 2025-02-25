@@ -10,6 +10,7 @@ interface StratagemRaw {
   name: string;
   type: StratagemType;
   imageUrl: string;
+  description?: string;
 }
 
 export interface StratagemAPI extends StratagemRaw {
