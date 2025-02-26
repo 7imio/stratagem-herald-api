@@ -560,6 +560,7 @@ export const stratagems: StratagemAPI[] = [
     code: 'DLUU',
     imageUrl: '/images/Anti-Tank_Mines.svg',
   },
+
   {
     id: '79',
     name: 'Orbital Napalm Barrage',
