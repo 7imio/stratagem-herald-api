@@ -451,7 +451,7 @@ export const stratagems: StratagemAPI[] = [
   {
     id: '63',
     name: 'Directional Shield',
-    type: StratagemType.DEFENSIVE,
+    type: StratagemType.SUPPORT,
     code: 'DULRUU',
     imageUrl: '/images/Directional_Shield.svg',
   },
@@ -465,7 +465,7 @@ export const stratagems: StratagemAPI[] = [
   {
     id: '65',
     name: 'Portable Hellbomb',
-    type: StratagemType.DEFENSIVE,
+    type: StratagemType.SUPPORT,
     code: 'DRUUU',
     imageUrl: '/images/Hellbomb_Portable.svg',
   },
