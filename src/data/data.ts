@@ -60,7 +60,7 @@ export const stratagems: StratagemAPI[] = [
     name: 'Orbital Airburst Strike',
     type: StratagemType.OFFENSIVE,
     code: 'RRR',
-    imageUrl: '/images/Orbital_Airburst_strike.svg',
+    imageUrl: '/images/Orbital_Airburst_Strike.svg',
   },
   {
     id: '9',
